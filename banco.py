@@ -121,8 +121,8 @@ def efetuar_transferencia() -> None:
             print(f'A sua conta com número {numero_origem} não foi encontrada.')
     else:
         print('Ainda não existem contas cadastradas.')
-        sleep(2)
-        menu()
+    sleep(2)
+    menu()
 
 
 def listar_contas() -> None:
